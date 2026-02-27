@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ /*reset na página*/
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0;
+    font-family: 'Barlow Condensed';
+    font-size: 25px;
+    background-color: #172C64;
+}
+
+.fonte{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 119, 7, 0.852); /*h1 developers*/
+    font-size: 50px;
+    font-family: verdana ;
+    font-weight: bolder;
+}
+
+
+.container__dev{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; /*div pai */
+    align-items: center;    /*Alinha os cards ao centro da div */
+    justify-content:space-around;
+    
+    
+}
+
+.dev__card{
+    width: 250px;
+    height: 250px;
+    background-color:#fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dev__card h3{
+    font-size: 12px;
+    color: #0062b8;
+}
+
+.dev__card--img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.dev__card--img img{
+    height: 100px;
+    width: 100px;   
+
+}
+.dev__card--nome{
+    display: flex;
+    /* justify-content: center; nome de cada dev */
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.dev__card--link{
+    display: flex;
+    /* justify-content: center; link de cada instagram em geral */
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.dev__card--link:hover{
+    text-decoration: underline;
+    color: rgb(255, 149, 0); /*decoração dos link de instagram*/
+}
+.dev__card--link img{
+   height: 20px;
+    width: 20px;
+}
+
+
+/* footer */
+
+
+footer{
+    padding: 20px;
+    height: 180px;
+    background-color:  chocolate; /*rodapé das páginas*/
+    color: rgb(11, 5, 45);
+}
+.pai-footer{
+
+    display: flex;
+    justify-content: space-between; /* distribui igualmente */
+
+    align-items: flex-start;        /* alinha no topo */max-width: 1200px;
+
+    margin: 0 auto;
+    gap: 40px;  
+  
+    background-color: chocolate;
+}
+
+.footer-esquerdo{
+    /*Nada pois não sei*/
+    width: 250px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;  /*conteúdo que está a esquerda do traço*/
+
+    padding-right: 180px;
+    
+    margin-right: 25px;
+    margin-bottom: 30px;
+    background-color: chocolate;
+    
+}
+.footer-esquerdo p{
+
+    color: rgb(255, 253, 253); /*nosso professor aqui*/
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+.img02{
+    margin-right: 10px; /*logo\imagem que está a esquerda*/
+    width: 80px;
+    height: 75px;
+}
+.footer-com-links{
+    margin-left:25px ;
+    text-decoration: none; /*lado direito do rodapé*/
+    padding-right: 180px;
+
+    border-left: 3px solid rgba(3, 3, 3, 0.666); /*Isso é o traço que divide os lados aqui*/
+    
+}
+
+.footer-com-links{
+    margin-top: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 25px;
+    
+}
+
+.footer-com-links a{
+    text-decoration: none;
+    color: rgb(184, 179, 175);
+}
+.footer-com-links a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer-com-links{
+    border-left: 3px solid rgba(3, 3, 3, 0.666);
+    margin-left: 30px;
+    padding-right: 180px;
+    height: 100px;
+}
+.footer-links{
+
+    margin-top: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 25px;
+
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(174, 161, 152);
+}
+.footer-links a:hover{
+    text-decoration: none;
+    color: blue;
+}
+h5{
+    margin-left: 10px;
+}
+p{
+    align-items: center;
+}
